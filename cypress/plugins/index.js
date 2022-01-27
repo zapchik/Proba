@@ -17,10 +17,10 @@
  */
 // eslint-disable-next-line no-unused-vars
 module.exports = (on, config) => {
-  require('cypress-image-snapshot/plugin').addMatchImageSnapshotPlugin(on,
-    config)
-      AllureWriter(on, config);
+  //require('cypress-image-snapshot/plugin').addMatchImageSnapshotPlugin(on,
+  //  config)
+  //    AllureWriter(on, config);
       // `on` is used to hook into various events Cypress emits
       // `config` is the resolved Cypress config
-      return config
+  //    return config
 }
