@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+        "allure-commandline": "^2.13.0",
+        "mocha": "^6.2.2",
+        "mocha-allure-reporter": "^1.4.0"
+      }
+}
