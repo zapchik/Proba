@@ -1,3 +1,8 @@
 {
-    "ignoreTestFiles" : ["**/1-getting-started/*","**/2-advanced-examples/*"]
+    "ignoreTestFiles" : ["**/1-getting-started/*","**/2-advanced-examples/*"],
+    "env": {
+        "allureResultsPath": "someFolder/results",
+        "tmsPrefix": "https://url-to-bug-tracking-system/task-",
+        "issuePrefix": "https://url-to-tms/tests/caseId-"
+    }
 }

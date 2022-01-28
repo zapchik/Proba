@@ -15,8 +15,12 @@
 /**
  * @type {Cypress.PluginConfig}
  */
+ const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+ // import allureWriter from "@shelex/cypress-allure-plugin/writer";
 // eslint-disable-next-line no-unused-vars
 module.exports = (on, config) => {
+  allureWriter(on, config);
+    return config;
   //require('cypress-image-snapshot/plugin').addMatchImageSnapshotPlugin(on,
   //  config)
   //    AllureWriter(on, config);
