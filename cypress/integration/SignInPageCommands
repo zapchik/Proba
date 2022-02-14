@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 import ObjectPage from "./PageObject/ObjectPage";
 describe('Signin page tests', () => {
     const signin = new ObjectPage ();
