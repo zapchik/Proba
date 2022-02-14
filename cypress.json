@@ -2,7 +2,7 @@
     "ignoreTestFiles" : ["**/1-getting-started/*","**/2-advanced-examples/*"],
     "projectId": "ri5d5e",
     "env": {
-        "allureResultsPath": "someFolder/results",
+        "allureResultsPath": "./allure-results",
         "tmsPrefix": "https://url-to-bug-tracking-system/task-",
         "issuePrefix": "https://url-to-tms/tests/caseId-"
     }

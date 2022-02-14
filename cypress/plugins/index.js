@@ -19,7 +19,7 @@
  // import allureWriter from "@shelex/cypress-allure-plugin/writer";
 // eslint-disable-next-line no-unused-vars
 module.exports = (on, config) => {
- // allureWriter(on, config);
+ //allureWriter(on, config);
  //   return config;
   //require('cypress-image-snapshot/plugin').addMatchImageSnapshotPlugin(on,
   //  config)
@@ -27,4 +27,12 @@ module.exports = (on, config) => {
       // `on` is used to hook into various events Cypress emits
       // `config` is the resolved Cypress config
   //    return config
+  const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+  //require('@shelex/cypress-allure-plugin');
+// import allureWriter from "@shelex/cypress-allure-plugin/writer";
+
+module.exports = (on, config) => {
+    allureWriter(on, config);
+    return config;
+};
 }
